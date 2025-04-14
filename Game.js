@@ -10,7 +10,7 @@ document.addEventListener("touchmove", (e)=>{
   move(touches.clientX,touches.clientY);
 })
 
-document.addEventListener("touchmove", (e)=>{
+document.addEventListener("mousemove", (e)=>{
   move(e.clientX,e.clientY);
 })
 
