@@ -10,9 +10,9 @@ document.addEventListener("touchmove", (e)=>{
   move(touches.clientX,touches.clientY);
 })
 
-circle.addEventListener("click", ()=>{document.addEventListener("mousemove", (e)=>{
+document.addEventListener("mousemove", (e)=>{
   move(e.clientX,e.clientY);
-})})
+})
 
 
 function getRandomColor(){
