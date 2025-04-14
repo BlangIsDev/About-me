@@ -10,6 +10,10 @@ document.addEventListener("touchmove", (e)=>{
   move(touches.clientX,touches.clientY);
 })
 
+document.addEventListener("touchmove", (e)=>{
+  move(e.clientX,e.clientY);
+})
+
 
 function getRandomColor(){
   var hex="123456789ABCDEF"
