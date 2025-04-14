@@ -6,6 +6,6 @@ function move(x,y){
 }
 
 document.addEventListener("touchmove", (e)=>{
-  touches=e.touches[0];
-  move(touches.clientX,touches.clientY;
+  const touches=e.touches[0];
+  move(touches.clientX,touches.clientY);
 })
