@@ -19,7 +19,7 @@ function getRandomColor(){
   var hex="123456789ABCDEF"
   var col="#"
   for(let i=0;i<6; i++){
-    col+=hex[Math.floor(Math.random() * 16)];
+    col+=hex[Math.floor(Math.random() * hex.length)];
   }
   return col;
 }
