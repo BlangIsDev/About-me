@@ -18,8 +18,8 @@ document.addEventListener("touchmove", (e)=>{
 function getRandomColor(){
   var hex="123456789ABCDEF"
   var col="#"
-  for(i=0;i<6 i++){
-    col+=hex[Math.floor(Math.random * 16)];
+  for(let i=0;i<6; i++){
+    col+=hex[Math.floor(Math.random() * 16)];
   }
   return col;
 }
